@@ -1,5 +1,18 @@
 <h1>WelcomesABCDE#index</h1>
 <p>Find me in app/views/welcomes/index.html.erb</p>
-<% 100.times do |i| %>
-   <%= i %>
-<% end %>
+<h2>html</h2>
+<a href="http://localhost:3000/welcomes/fuga">fugaのリンク</a>
+<a href="http://localhost:3000/welcomes/hoge">hogeのリンク</a>
+
+<h2>rails</h2>
+<!-- -->
+<% #  基本的にはrailsの方を使う%>
+<%= link_to "hogeへGO", welcomes_hoge_path %>
+
+<%= link_to "fugaへGO", welcomes_fuga_path %>
+
+<h2>html</h2>
+
+<form mathod="post" action="example.cgi">
+<a>text:<input type="text" name="name"></a>
+</form>
