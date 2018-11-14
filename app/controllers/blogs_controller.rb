@@ -1,5 +1,6 @@
 class BlogsController < ApplicationController
   def index
+    @alldate =Blog.all
   end
 
   def new
