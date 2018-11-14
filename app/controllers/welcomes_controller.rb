@@ -4,7 +4,7 @@ class WelcomesController < ApplicationController
 
   def hoge
   end
-
+  
   def fuga
   end
 
