@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   def index
-    @alldate =Blog.all
+    @blogs_all =Blog.all
   end
 
   def new

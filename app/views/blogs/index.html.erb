@@ -1,6 +1,8 @@
-#登録したデータの表示:ヒントは他のhtmlのやつ
-<% @alldate.each do |date| %>
-  <p><%= date.title %></p>
-  <p><%= date.body %></p>
+登録したデータの表示:ヒントは他のhtmlのやつ
+
+<% @blogs_all.each do |b| %>
+  <p><%= b.title %></p>
+  <p><%= b.body %></p>
   <p>=================</p>
 <% end %>
+
